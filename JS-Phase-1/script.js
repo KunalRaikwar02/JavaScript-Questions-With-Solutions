@@ -170,3 +170,59 @@
 // let a = 25;
 // let b = 4;
 // console.log(25%4);
+
+
+// ---> Find the square of a number using exponent operator.
+// let num = 5;
+// let square = num ** 2;
+// console.log(square);
+
+
+// ---> Increment a variable using ++ .
+// let a = 5;
+// a++;
+// console.log(a);
+
+
+// ---> Decrement a variable using .
+// let a = 5;
+// a--;
+// console.log(a);
+
+
+// ---> Use += operator to increase a variable by 20.
+// let a = 20;
+// a += 20
+// console.log(a)
+
+
+// ---> Compare two numbers using > , < , >= , <= .
+// let a = 10;
+// let b = 12;
+// console.log(a>b);
+// console.log(a<b);
+// console.log(a>=b);
+// console.log(a<=b);
+
+
+// ---> Check if two values are strictly equal using === .
+// let a = 20;
+// let b = "20";
+// console.log(a==b);
+// console.log(a===b);
+
+
+// ---> Compare "10" and 10 using both == and === .
+// let a = "10";
+// let b = 10;
+// console.log(a==b);
+// console.log(a===b);
+
+
+// ---> Create two boolean variables and test && , || , and ! .
+// let a = true;
+// let b = false;
+// console.log(a && b)
+// console.log(a || b)
+// console.log(!a)
+// console.log(!b)
