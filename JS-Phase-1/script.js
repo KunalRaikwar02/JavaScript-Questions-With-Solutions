@@ -323,3 +323,176 @@
 // ---> Use toFixed(2) on 3.141592 .
 // let num = 3.141592;
 // console.log(num.toFixed(2));
+
+
+
+                                                    // Conditionals \\
+
+// ---> Check whether a number is positive or negative.
+// let num = 10;
+// if (num > 0) {
+//     console.log("Positive");
+// } else if (num < 0) {
+//     console.log("Negative");
+// } else {
+//     console.log("Zero");
+// }
+
+
+// ---> Check whether a number is even or odd.
+// let i = 3;
+// if(i % 2 == 0) {
+//     console.log("Even")
+// } else {
+//     console.log("Odd")
+// }
+
+
+// ---> Check whether a person is eligible to vote.
+// let age = 20;
+// if (age >= 18) {
+//     console.log("You can vote");
+// } else {
+//     console.log("You cannot vote");
+// }
+
+
+// ---> Find the largest among two numbers.
+// let a = 10;
+// let b = 20;
+// if (a >= b) {
+//     console.log("a is bigger");
+// } else {
+//     console.log("b is bigger");
+// }
+
+
+// ---> Find the largest among three numbers.
+// let a = 10;
+// let b = 50;
+// let c = 30;
+// if (a >= b && b <= c) {
+//     console.log("a is bigger");
+// } else if (b >= a && b >= c) {
+//     console.log("b is bigger");
+// } else {
+//     console.log("c is bigger")
+// }
+
+
+// ---> Check whether a year is a leap year.
+// let year = 20;
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//     console.log("leap year")
+// } else {
+//     console.log("not leap year")
+// }
+
+
+// ---> Check whether a number is divisible by both 3 and 5.
+// let a = 30;
+// if (a % 3 === 0 && a % 5 === 0) {
+//     console.log("Divisible by both 3 and 5");
+// } else {
+//     console.log("Not divisible by both");
+// }
+
+
+// ---> Create a simple grading system: 90 → A 75 → B 50 → C below 50 → Fail
+// let a = 98;
+// if (a >= 90) {
+//     console.log("You got A++");
+// } else if (a >= 75){
+//     console.log("You got B++");
+// } else if ( a >= 50){
+//     console.log("You got C++");
+// } else {
+//     console.log("Fail");
+// }
+
+
+// ---> Check whether a character is a vowel or consonant.
+// let val = "h";
+// if (val === "a" || val === "e" || val === "i" || val === "o" || val === "u"){
+//     console.log("its a vowel");
+// } else {
+//     console.log("its a Consonant");
+// }
+
+
+// ---> Create a calculator using switch statement.
+// let a = 10;
+// let b = 20;
+// let operator = "+";
+// switch (operator){
+//     case "+":
+//         console.log(a+b)
+//         break;
+
+//     case "-":
+//         console.log(a+b)
+//         break;
+
+//     case "*":
+//         console.log(a+b)
+//         break;
+
+//     case "/":
+//         console.log(a+b)
+//         break;
+
+//     case "%":
+//         console.log(a+b)
+//         break;
+
+//     default:
+//         console.log("Invalid operator");
+// }
+
+
+// ---> Print the day name based on a number 1 7.
+// let day = 5;
+// switch (day) {
+//     case 1:
+//         console.log("Today is Monday");
+//         break;
+//     case 2:
+//         console.log("Today is Tuesday");
+//         break;
+//     case 3:
+//         console.log("Today is Wednesday");
+//         break;
+//     case 4:
+//         console.log("Today is Thursday");
+//         break;
+//     case 5:
+//         console.log("Today is Friday");
+//         break;
+//     case 6:
+//         console.log("Today is Saturday");
+//         break;
+//     case 7:
+//         console.log("Today is Sunday");
+//         break;
+//     default:
+//         console.log("Invalid day number");
+// }
+
+
+// ---> Check whether a username is "admin" and password is "1234" .
+// let username = "admin";
+// let password = "1234";
+
+// if (username === "admin") {
+//     if (password === "1234") {
+//         console.log("You are Login");
+//     } else {
+//         console.log("Wrong Password");
+//     }
+// } else {
+//     if (password === "1234") {
+//         console.log("Wrong Username");
+//     } else {
+//         console.log("Wrong Username and Wrong Password");
+//     }
+// }
