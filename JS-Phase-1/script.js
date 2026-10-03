@@ -544,3 +544,103 @@
 // let b = 20;
 // let result = a>=b ? a : b;
 // console.log(result);
+
+
+
+                                            // Mixed Practice Questions \\
+
+
+// ---> Create a mini biodata program using variables and template literals.    
+// let name = "Kunal Raikwar";
+// let age = 20;
+// let city = "Lucknow";
+// let education = "BCA"
+// let profession = "Web Developer"
+
+// let biodata = `
+// Name: ${name}
+// Age: ${age}
+// City: ${city}
+// Education: ${education}
+// Profession: ${profession}
+// `
+// console.log(biodata);
+
+
+// ---> Calculate the area of a rectangle.
+// let length = 25;
+// let width = 35;
+// let area = length * width;
+// console.log(area);
+
+
+// ---> Calculate the simple interest.
+// let principal = 10000;
+// let rate = 5;
+// let time = 2;
+// let simpleInterest = (principal * rate * time) / 100;
+// console.log(simpleInterest);
+
+
+// ---> Convert temperature from Celsius to Fahrenheit.
+// let celsius = 30;
+// let Fahrenheit = (celsius * 9/5) + 32;
+// console.log(Fahrenheit);
+
+
+// ---> Convert kilometers into meters.
+// let kilometers = 6;
+// let meters = kilometers * 1000;
+// console.log(meters);
+
+
+// ---> Calculate total marks and percentage of 5 subjects.
+// let sub1 = 80;
+// let sub2 = 60;
+// let sub3 = 50;
+// let sub4 = 30;
+// let sub5 = 40;
+// let total = sub1 + sub2 + sub3 + sub4 + sub5;
+// let percentage = (total / 500) * 100;
+// console.log("Total Marks:", total);
+// console.log("Percentage:", percentage + "%");
+
+
+// --->Calculate electricity bill based on units consumed.
+// let units = 150;
+// let bill;
+// if (units <= 100) {
+//     bill = units * 5;
+// } else if (units <= 200) {
+//     bill = units * 7;
+// } else {
+//     bill = units * 10;
+// }
+// console.log("Electricity Bill:", bill);
+
+
+// ---> Create a username generator using first name and birth year.
+// let users = ["Kunal", "Yash", "Rahul", "Priyanshu", "Aditya"];
+// let birthYear = 2004;   
+// let randomIndex = Math.floor(Math.random() * users.length);
+// let username = `${users[randomIndex]}${birthYear}`;
+// console.log(username);   
+
+
+// ---> Check whether a string starts with a specific letter.
+// let name = "Kunal";
+// let letter = "K"
+
+// if(name[0] === letter){
+//     console.log("String start with the letter");
+// }else{
+//     console.log("Strind does not start with the letter");
+// }
+
+
+// ---> Count the total characters in a sentence excluding spaces.
+// let sentence = 'I Love JavaScript';
+// let result = sentence.replaceAll("", "").length;
+// console.log(result);
+
+
