@@ -496,3 +496,30 @@
 //         console.log("Wrong Username and Wrong Password");
 //     }
 // }
+
+
+
+                                                // Truthy & Falsy \\
+
+// ---> Check whether an empty string is truthy or falsy.
+// let val = ""
+// console.log(Boolean(val));
+                  
+
+// ---> Check whether 0 is truthy or falsy.
+// let val = 0;
+// console.log(Boolean(val))
+
+
+// ---> Check whether [] is truthy or falsy.
+// let val = [];
+// console.log(Boolean(val));
+
+
+// ---> Create a variable and print "Valid" if it has a value otherwise print "Invalid" .
+// let a = "20";
+// if(a){
+//     console.log("valid")
+// }else{
+//     console.log("invalid")
+// }
