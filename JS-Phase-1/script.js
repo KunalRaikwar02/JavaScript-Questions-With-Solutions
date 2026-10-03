@@ -226,3 +226,100 @@
 // console.log(a || b)
 // console.log(!a)
 // console.log(!b)
+
+
+
+                                                        // Strings \\
+
+// ---> Create a string and print its length.
+// let a = "Kunal"
+// console.log(a.length)
+
+
+// ---> Convert a string into uppercase.
+// let a = "apple"
+// console.log(a.toUpperCase());
+
+
+// ---> Convert a string into lowercase.
+// let a = "KUNAL";
+// console.log(a.toLowerCase());
+
+
+// ---> Check if a string includes the word "JavaScript" .
+// let a = "JavaScript";
+// console.log(a.includes("JavaScript"));
+
+
+// ---> Extract the word "World" from "Hello World" .
+// let a = "Hello World";
+// console.log(a.slice(6))
+
+
+// ---> Replace "apple" with "mango" in a sentence.
+// let a = "I like apple";
+// console.log(a.replace("apple", "mango"));
+
+
+// ---> Split "HTML,CSS,JS" into an array.
+// let a = "HTML, CSS, JS";
+// console.log(a.split(","))
+
+
+// ---> Remove extra spaces from a string.
+// let a = "   Kunal Raikwar   ";
+// console.log(a.trim());
+
+
+// // ---> Repeat the word "Hi" 5 times.
+// let a = "Hi";
+// console.log(a.repeat(5));
+
+
+
+// ---> Print the first character of a string.
+// let a = "Hello";
+// console.log(a[1]);
+
+
+// ---> Use template literals to print: "My name is Aman and I am 20 years old"
+// let name = "Kunal";
+// let age = 20;
+// console.log(`My Name is ${name} and I am ${age} years old`);
+
+
+                                                    // Numbers & Math \\
+
+// ---> Round 4.7 using Math.round().
+// let val = 4.7;
+// console.log(Math.round(val));
+
+
+// ---> Find the square root of 81.
+// let a = 81;
+// console.log(Math.sqrt(a));
+
+
+// ---> Find the maximum number from 10, 20, 5, 99 .
+// let a = [10,20,5,99];
+// console.log(Math.max(...a));
+
+
+// ---> Generate a random number between 1 and 10.
+// console.log(Math.floor(Math.random() * 10));
+
+
+// ---> Convert "99.99" into an integer.
+// let a = 99.99;
+// let num = parseInt(a)
+// console.log(num)
+
+
+// ---> Check whether 25 is an integer or not.
+// let num = 25;
+// console.log(Number.isInteger(num));
+
+
+// ---> Use toFixed(2) on 3.141592 .
+// let num = 3.141592;
+// console.log(num.toFixed(2));
