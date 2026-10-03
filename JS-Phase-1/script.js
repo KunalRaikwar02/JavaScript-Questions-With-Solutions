@@ -644,3 +644,93 @@
 // console.log(result);
 
 
+
+                                            // Logical Thinking Questions \\
+
+// ---> Take two numbers and print which one is greater.
+// let a = 32;
+// let b = 20;
+//  if(a>=b){
+//     console.log("A is greater")
+// }else{
+//     console.log("B is greater")
+// }
+
+
+// ---> Check whether a number lies between 10 and 50.
+// let num = 25;
+// if ( num>=10 && num<=50) {
+//     console.log("Number is between 10 and 50");
+// } else {
+//     console.log("Number is not between 10 and 50");
+// }
+
+
+// ---> Check whether a password length is greater than 8.
+// let password = "admin"
+// if(password.length >= 8){
+//     console.log("Password is greater than 8")
+// }else{
+//     console.log("Password is not greater than 8")
+// }
+
+
+// ---> Check if a person can drive: age > 18 has license = true
+// let age = 15;
+// if(age>=18){
+//     console.log("You can drive");
+// }else{
+//     console.log("You can not drive")
+// }
+
+
+// ---> Check whether a number is divisible by 2, 3, or both.
+// let num = 6;
+// if(num % 2 === 0 && num % 3 ===0){
+//     console.log("Divided by both")
+// }else{
+//     console.log("Not Divided")
+// }
+
+
+// ---> Print "Good Morning" , "Good Afternoon" , or "Good Evening" based on time.
+// let time = 11;
+// if(time <= 12) {
+//     console.log("Good Morning");
+// } else if (time <= 18) {
+//     console.log("Good Afternoon");
+// }else{
+//     console.log("Good Evening");
+// }
+
+
+// ---> Find whether a number is a multiple of 10.
+// let val = 20
+// if (val % 10 === 0) {
+//     console.log("Multiple of 10");
+// } else {
+//     console.log("Not a multiple of 10");
+// }
+
+
+// ---> Create a simple discount calculator.
+// let price = 1000;
+// let discount = 20;
+// let finalPrice = price - (price * discount / 100);
+// console.log(finalPrice);
+
+
+// ---> Check whether a product is in stock.
+// let stock = 10;
+// if (stock > 0) {
+//     console.log("Product is in stock");
+// } else {
+//     console.log("Product is out of stock");
+// }
+
+
+// ---> Calculate final bill after GST.
+// let bill = 1000;
+// let gst = 18;
+// let finalBill = bill + (bill * gst / 100);
+// console.log(finalBill);
