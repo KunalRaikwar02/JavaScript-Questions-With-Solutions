@@ -523,3 +523,24 @@
 // }else{
 //     console.log("invalid")
 // }
+
+
+                                                // Ternary Operator \\
+                                        
+// ---> Check whether a number is even or odd using ternary operator.
+// let a = 10;
+// let results = a % 2 === 0 ? "Even" : "Odd";
+// console.log(results);
+
+
+// ---> Check whether age is above 18 using ternary operator.
+// let age = 14;
+// let result = age>=18 ? "adult" : "young";
+// console.log(result);
+
+
+// ---> Find the greater number between two values using ternary operator.
+// let a = 10;
+// let b = 20;
+// let result = a>=b ? a : b;
+// console.log(result);
