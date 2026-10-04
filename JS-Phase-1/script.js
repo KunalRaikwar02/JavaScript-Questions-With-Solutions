@@ -734,3 +734,119 @@
 // let gst = 18;
 // let finalBill = bill + (bill * gst / 100);
 // console.log(finalBill);
+
+
+
+                                          // Challenge Questions for Beginners \\
+
+// ---> Generate a random OTP of 4 digits.
+// console.log(Math.floor(Math.random() * 9000) + 1000);
+
+
+// ---> Reverse a 3-letter string manually.
+// let name = "abc"
+// console.log(name[2] + name[1] + name[0]);
+
+
+// ---> Find the last character of a string.
+// let val = "Jadughar";
+// console.log(val[val.length - 1]);
+
+
+// ---> Convert a full name into uppercase initials.
+// let fullName = "Kunal Raikwar";
+// let initials = fullName[0] + fullName[6];
+// console.log(initials.toUpperCase());
+
+
+// ---> Check whether two strings are equal ignoring case sensitivity.
+// let str1 = "KUNAL";
+// let str2 = "kunal";
+// if (str1.toLowerCase() === str2.toLowerCase()) {
+//     console.log("Both strings are equal");
+// } else {
+//     console.log("Strings are not equal");
+// }
+
+
+// ---> Create a simple login validation system.
+// let username = "admin";
+// let password = "1234";
+// if (username === "admin" && password === "1234") {
+//     console.log("Login successful");
+// } else {
+//     console.log("Invalid username or password");
+// }
+
+
+// ---> Find whether a number is a 2-digit or 3-digit number.
+// let num = 250;
+// if (num >= 10 && num <= 99) {
+//     console.log("2-digit number");
+// } else if (num >= 100 && num <= 999) {
+//     console.log("3-digit number");
+// } else {
+//     console.log("Neither 2-digit nor 3-digit");
+// }
+
+
+// ---> Create a mini ATM balance checker.
+// let balance = 5000;
+// let withdraw = 2000;
+// if (withdraw <= balance) {
+//     balance = balance - withdraw;
+//     console.log("Withdrawal successful");
+//     console.log("Remaining Balance:", balance);
+// } else {
+//     console.log("Insufficient balance");
+// }
+
+
+// ---> Simulate a traffic light system using switch .
+// let light = "red";
+// switch (light) {
+//     case "red":
+//         console.log("Stop");
+//         break;
+//     case "yellow":
+//         console.log("Get Ready");
+//         break;
+//     case "green":
+//         console.log("Go");
+//         break;
+//     default:
+//         console.log("Invalid traffic light");
+// }
+
+
+// ---> Build a small marksheet generator using variables and conditionals.
+// let maths = 80;
+// let english = 75;
+// let science = 90;
+// let computer = 85;
+// let hindi = 70;
+
+// let total = maths + english + science + computer + hindi;
+// let percentage = (total / 500) * 100;
+
+// let grade;
+
+// if (percentage >= 90) {
+//     grade = "A";
+// } else if (percentage >= 75) {
+//     grade = "B";
+// } else if (percentage >= 50) {
+//     grade = "C";
+// } else {
+//     grade = "Fail";
+// }
+
+// console.log("<----- Marksheet ----->");
+// console.log("Maths:", maths);
+// console.log("English:", english);
+// console.log("Science:", science);
+// console.log("Computer:", computer);
+// console.log("Hindi:", hindi);
+// console.log("Total:", total);
+// console.log("Percentage:", percentage + "%");
+// console.log("Grade:", grade);
