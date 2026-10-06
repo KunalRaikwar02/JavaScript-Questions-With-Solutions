@@ -91,3 +91,72 @@
 // console.log(result);
 
 
+                                                    // Intermediate Level \\
+
+
+// ---> Write a function expression for multiplication.
+// let multiply = function(a, b) {
+//     return a * b;
+// };
+// let result = multiply(5, 4);
+// console.log(result);
+
+
+// ---> Convert a normal function into an arrow function.
+// let a = () => {
+//     console.log("hello");
+// }
+// a();
+
+
+// ---> Create a function that accepts unlimited numbers and returns their sum using rest operator.
+// let sum = (...a) => {
+//     return a.reduce((total, num) => total + num, 0);
+// }
+// let result = sum(5, 5);
+// console.log(result);
+
+
+// ---> Write a function that counts vowels in a string.
+// function countVowels(str) {
+//     let count = 0;
+//     for (let char of str) {
+//         if ( char === "a" || char === "e" || char === "i" || char === "o"||char === "u" ) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// let result = countVowels("JavaScript");
+// console.log(result);
+
+
+// ---> Create a function that checks if a string is palindrome.
+// function isPalindrome(str) {
+//     let reverse = str.split("").reverse().join("");
+//     if (str === reverse) {
+//         return "Palindrome";
+//     } else {
+//         return "Not Palindrome";
+//     }
+// }
+// let result = isPalindrome("madam");
+// console.log(result);
+
+
+// ---> Write a callback function example using setTimeout .
+// function aru(){
+//     setTimeout(() => {
+//         console.log("hello");   
+//     }, 1000);
+// }
+// aru();
+
+
+// ---> Create a higher-order function that executes another function twice.
+
+
+
+
+// let arr = 'Kunal'
+// console.log(arr.split("").reverse("_").join(""))
