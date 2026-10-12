@@ -151,12 +151,3 @@
 //     }, 1000);
 // }
 // aru();
-
-
-// ---> Create a higher-order function that executes another function twice.
-
-
-
-
-// let arr = 'Kunal'
-// console.log(arr.split("").reverse("_").join(""))
