@@ -41,3 +41,39 @@
 // let rectangle =  2 * (length + width);
 // console.log("Area is:", area );
 // console.log("Rectangle is:", rectangle );
+
+
+                                              //   Section B: Conditions \\ 
+
+// ---> 6. Check whether a number is positive, negative or zero using if / else if / else. Test with 5, -3 and 0.
+// let num = 0;
+// if(num > 0){
+//     console.log("Positive");
+// }else if (num < 0){
+//     console.log("Negative");
+// }else{
+//     console.log("Zero");
+// }
+
+
+// ---> 7. Check whether a number is even or odd using the % operator.
+// let num = 5;
+// if(num % 2 === 0){
+//     console.log("Even");
+// }else{
+//     console.log("Odd");   
+// }
+
+
+// ---> 8. Given three numbers a, b, c, find and print the largest one using if statements and && .
+// let a = 10;
+// let b = 20;
+// let c = 30;
+
+// if(a>b && a>c){
+//     console.log("A is Largest");
+// }else if(b>a && b>c){
+//     console.log("B is Largest");
+// }else{
+//     console.log("C is Largest");
+// }
