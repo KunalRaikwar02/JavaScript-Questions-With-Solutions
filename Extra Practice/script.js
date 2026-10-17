@@ -77,3 +77,16 @@
 // }else{
 //     console.log("C is Largest");
 // }
+
+
+// 9. Given marks out of 100, print the grade: 90 and above is A, 75-89 is B, 50-74 is C, below 50 is Fail .
+// let marks = 49;
+// if (marks>=90) {
+//     console.log("A");
+// }else if(marks>=75){
+//     console.log("B");
+// }else if(marks>=50){
+//     console.log("C")
+// }else{
+//     console.log("Fail")
+// }
