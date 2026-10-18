@@ -87,11 +87,11 @@
 // function reverse(a) {
 //     return a.split("").reverse().join("");
 // }
-// let result = reverse("Kunal");
+// let result = reverse("Kunal");   
 // console.log(result);
 
 
-                                                    // Intermediate Level \\
+                                                    // Functions Basics Intermediate Level \\
 
 
 // ---> Write a function expression for multiplication.
@@ -151,3 +151,39 @@
 //     }, 1000);
 // }
 // aru();
+
+
+// ---> Create a higher-order function that executes another function twice.
+// function parent(child) {
+//     child();
+//     child();
+// }
+// function child() {
+//     console.log("I am child");
+// }
+// parent(child);
+
+
+// ---> Write a function that returns another function.
+// let fun = () => {
+//     return () => {
+//         console.log("hello")
+//     }
+// }
+// fun()()
+
+
+// ---> Create a pure function for subtraction.
+// function subtract(a, b) {
+//     return a - b;
+// }
+// console.log(subtract(5, 2));
+
+
+// ---> Create an impure function using global variable modification.
+// let count = 3;
+// function add() {
+//     count++;
+//     console.log(count);
+// }
+// add();
