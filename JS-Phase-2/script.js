@@ -187,3 +187,61 @@
 //     console.log(count);
 // }
 // add();
+
+
+                                               //  Arrays Basics Beginner \\
+
+// ---> Create an array of 5 fruits.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+
+
+// ---> Print first and last element of array.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// console.log(fruits[0], fruits[fruits.length-1]);
+
+
+// ---> Find length of array.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// console.log(fruits.length);
+
+
+// ---> Add element at end using push.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// fruits.push("grapes");
+// console.log(fruits);
+
+
+// ---> Remove last element using pop.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// fruits.pop();
+// console.log(fruits);
+
+
+// ---> Add element at beginning using unshift.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// fruits.unshift("watermelons");
+// console.log(fruits);
+
+
+// ---> Remove first element using shift.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// fruits.shift();
+// console.log(fruits);
+
+
+// ---> Reverse an array.
+// let fruits = ["Mango","Orange","Apple","Banana","Pomegranate"];
+// fruits.reverse();
+// console.log(fruits);
+
+
+// ---> Sort numbers ascending.
+// let number = [11, 25, 2, 6, 50, 71, 100, 200, 42, 125, 500];
+// number.sort((a,b) => a-b);
+// console.log(number);
+
+
+// ---> Sort numbers descending.
+// let number = [11, 25, 2, 6, 50, 71, 100, 200, 42, 125, 500];
+// number.sort((a,b) => b-a);
+// console.log(number);

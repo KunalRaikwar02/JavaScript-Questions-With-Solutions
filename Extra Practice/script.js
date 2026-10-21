@@ -45,7 +45,7 @@
 
 
 
-                                              //   Section B: Conditions \\ 
+                                                  //   Section B: Conditions \\ 
 
 
 // ---> 6. Check whether a number is positive, negative or zero using if / else if / else. Test with 5, -3 and 0.
@@ -125,7 +125,7 @@
 
 
 
-                                                 // Section C: For loops \\
+                                                   // Section C: For loops \\
 
               
 // ---> 11. Print the numbers from 1 to 10 using a for loop.
