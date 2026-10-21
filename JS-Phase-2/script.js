@@ -245,3 +245,68 @@
 // let number = [11, 25, 2, 6, 50, 71, 100, 200, 42, 125, 500];
 // number.sort((a,b) => b-a);
 // console.log(number);
+
+
+
+                                                // Arrays Basics Intermediate \\
+
+
+// ---> Use splice to remove elements.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// num.splice(1,2);
+// console.log(num);
+
+
+// ---> Use splice to insert elements.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// num.splice(1,2,4,50);
+// console.log(num);
+
+
+// ---> Use slice to copy array.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// let num2 = num.slice(2,5);
+// console.log(num2);
+
+
+// ---> Find index of an element.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// console.log(num.indexOf(25));
+// console.log(num.indexOf(100));
+
+
+// ---> Check if array contains a value.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// console.log(num.includes(25));
+// console.log(num.includes(250));
+
+
+// ---> Join array elements with .
+// let num = [11, 25, 2, 6, 50, 71, 100, "Kunal", true, [45, 65, 75]];
+// console.log(num.flat().join("."));
+
+
+// ---> Merge two arrays using spread operator.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// let num2 = [20, 50, 44, 99, 58, 73];
+// let merge = [...num , ...num2];
+// console.log(merge);
+
+
+// ---> Copy array using spread operator.
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// let num2 = [...num];
+// console.log(num2);
+
+
+// ---> Find maximum value using Math.max .
+// let num = [11, 25, 2, 6, 50, 71, 100];
+// console.log(Math.max(...num));
+
+
+// ---> Swap two variables using destructuring.
+// let a = 10;
+// let b = 30;
+// [a,b] = [b,a];
+// console.log(a);
+// console.log(b);
