@@ -310,3 +310,63 @@
 // [a,b] = [b,a];
 // console.log(a);
 // console.log(b);
+
+
+
+                                                   // Array Iteration Methods \\
+
+
+// ---> Use forEach to print all numbers doubled.
+// let arr = [2,3,4,5,6];
+// arr.forEach((val)=>{
+//     console.log(val*2);
+// })
+
+
+// ---> Use map to square all numbers.
+// let arr = [2,3,4,5,6];
+// let arr2 = arr.map((val)=>{
+//     return val*val;
+// })
+// console.log(arr2);
+
+
+// Use filter to get even numbers. 
+// let arr = [2,3,4,5,6,7];
+// let arr2 = arr.filter((val)=>{
+//     if(val%2===0){
+//         return val;
+//     }
+// })
+// console.log(arr2);
+
+
+// Use reduce to calculate sum. 
+// let arr = [2,3,4,5,6,7];
+// let arr2 = arr.reduce((acc, val)=>{
+//     return acc + val;
+// }, 0)
+// console.log(arr2);
+
+
+// Use reduce to find maximum number. 
+// let arr = [2,3,4,5,6,7];
+// let arr2 = arr.reduce((acc, val)=>{
+//     return acc + val;
+// }, 0);
+// console.log(arr2);
+
+
+// Use find to get first even number. 
+// let arr = [2,3,4,5,6,7];
+// let arr2 = arr.find((val)=>{
+//     return val % 2 === 0;
+// });
+// console.log(arr2);
+
+// Use findIndex to locate number > 50.
+// let arr = [2, 3, 4, 5, 6, 70];
+// let arr2 = arr.findIndex((val) => {
+//     return val > 50;
+// });
+// console.log(arr2);
