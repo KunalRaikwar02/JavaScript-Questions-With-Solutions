@@ -489,3 +489,31 @@
 // }, {});
 // console.log(ans);
     
+
+// Chain filter and map. 
+// let numbers = [2, 5, 8, 11, 14, 17, 20];
+// let ans = numbers.filter((val)=>{
+//     if(val%2===0){
+//         return val;
+//     }
+// })
+// .map((val)=>{
+//     return val*2;
+// })
+// console.log(ans);
+
+
+// Explain difference between map and forEach.
+// let numbers = [1, 2, 3, 4];
+
+//map:
+// let ans = numbers.map((val)=>{
+//     return val*2;
+// })
+// console.log(ans);
+// console.log(numbers);
+
+//forEach:
+// numbers.forEach(()=>{
+//     console.log("hey");
+// })
