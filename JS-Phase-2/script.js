@@ -370,3 +370,122 @@
 //     return val > 50;
 // });
 // console.log(arr2);
+
+
+// Use some to check if any number is negative.
+//  let arr = [2, 3, -4, 5, -6, 70];
+//  let arr2 = arr.some((val)=>{
+//     if(val<0){
+//         return val;
+//     }
+//  })
+//  console.log(arr2);
+
+
+// Use every to check if all numbers are positive. 
+//  let arr = [2, 3, 4, 5, 6, 70];
+//  let arr2 = arr.every((val)=>{
+//     if(val>0){
+//         return val;
+//     }
+//  })
+//  console.log(arr2);
+
+
+// Create array of names and convert all to uppercase.
+// let names = ["Kunal", "Aman", "Golu", "Samay"];
+// let allNames = names.map((val)=>{
+//     return val.toUpperCase();
+// }) 
+// console.log(allNames);
+
+
+// Filter all students with marks > 80. 
+// let students = [
+//     { name: "Kunal", marks: 90 },
+//     { name: "Aman", marks: 75 },
+//     { name: "Golu", marks: 85 },
+//     { name: "Samay", marks: 60 }
+// ];
+// let studentsMarks = students.filter((val)=>{
+//     return val.marks > 80;
+// })
+// .map((val)=>{
+//     return val.name;
+// })
+// console.log(studentsMarks);
+
+
+// Calculate average using reduce. 
+// let arr = [10, 20, 30, 40, 50];
+// let arr2 = arr.reduce((acc, val)=>{
+//     return acc + val;
+// }, 0)
+// let ans = arr2 / arr.length;
+// console.log(ans);
+
+
+// Count occurrences of numbers in array. 
+// let arr = [2, 3, 2, 4, 3, 2, 5, 4];
+// let arr2 = arr.reduce((acc, val)=>{
+//     if(acc[val]){
+//         acc[val]++;
+//     }else{
+//         acc[val]= 1;
+//     }
+//     return acc;
+// }, {});
+// console.log(arr2);
+
+
+// Flatten nested arrays using flat .
+// let arr = [10, [20, 30], [40, 50]];
+// console.log(arr.flat());
+
+
+// Remove duplicates using Set. 
+// let arr = [1, 2, 2, 3, 3, 4, 4];
+// console.log([...new Set(arr)])
+
+
+// Sort array of objects by age. 
+// let people = [
+//     { name: "Kunal", age: 25 },
+//     { name: "Aman", age: 18 },
+//     { name: "Golu", age: 30 },
+//     { name: "Samay", age: 22 }
+// ];
+// let ans = people.sort((a,b)=> a.age-b.age);
+// console.log(ans);
+
+
+// Find total price of shopping cart. 
+// let cart = [
+//     { item: "Shoes", price: 2000 },
+//     { item: "T-shirt", price: 500 },
+//     { item: "Jeans", price: 1200 },
+//     { item: "Cap", price: 300 }
+// ];
+// let ans = cart.reduce((acc, val)=>{
+//     return acc + val.price
+// },0);
+// console.log(ans);
+
+
+// Group users by age.
+// let users = [
+//     { name: "Kunal", age: 20 },
+//     { name: "Aman", age: 25 },
+//     { name: "Golu", age: 20 },
+//     { name: "Samay", age: 25 },
+//     { name: "Rahul", age: 30 }
+// ];
+// let ans = users.reduce((acc, val) => {
+//     if (!acc[val.age]) {
+//         acc[val.age] = [];
+//     }
+//     acc[val.age].push(val);
+//     return acc;
+// }, {});
+// console.log(ans);
+    
