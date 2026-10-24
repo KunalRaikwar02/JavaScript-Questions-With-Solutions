@@ -517,3 +517,75 @@
 // numbers.forEach(()=>{
 //     console.log("hey");
 // })
+
+
+
+                                                     // Objects Basics \\
+
+
+// ---> Create object for a student.
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+
+
+// Access properties using dot notation. 
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+// console.log(student.name);
+
+
+// Access properties using bracket notation. 
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+// console.log(student["name"]);
+
+
+// Add new property dynamically. 
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+// student.city = "bhopal";
+// console.log(student);
+
+
+// Update existing property. 
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+// student.name = "Rahul";
+// console.log(student);
+
+
+// Delete a property. 
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1
+// }
+// delete student.name;
+// console.log(student);
+
+
+// Create object method.
+// let student = {
+//     name: "Kunal",
+//     age: 20,
+//     rank: 1,
+//     greet: function(){
+//         return "hey";   
+//     }
+// }
+// console.log(student.greet());
