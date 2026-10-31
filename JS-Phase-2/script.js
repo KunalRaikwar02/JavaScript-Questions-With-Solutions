@@ -331,7 +331,7 @@
 // console.log(arr2);
 
 
-// Use filter to get even numbers. 
+// --->  Use filter to get even numbers. 
 // let arr = [2,3,4,5,6,7];
 // let arr2 = arr.filter((val)=>{
 //     if(val%2===0){
@@ -341,7 +341,7 @@
 // console.log(arr2);
 
 
-// Use reduce to calculate sum. 
+// --->  Use reduce to calculate sum. 
 // let arr = [2,3,4,5,6,7];
 // let arr2 = arr.reduce((acc, val)=>{
 //     return acc + val;
@@ -349,7 +349,7 @@
 // console.log(arr2);
 
 
-// Use reduce to find maximum number. 
+// --->  Use reduce to find maximum number. 
 // let arr = [2,3,4,5,6,7];
 // let arr2 = arr.reduce((acc, val)=>{
 //     return acc + val;
@@ -357,14 +357,14 @@
 // console.log(arr2);
 
 
-// Use find to get first even number. 
+// --->  Use find to get first even number. 
 // let arr = [2,3,4,5,6,7];
 // let arr2 = arr.find((val)=>{
 //     return val % 2 === 0;
 // });
 // console.log(arr2);
 
-// Use findIndex to locate number > 50.
+// --->  Use findIndex to locate number > 50.
 // let arr = [2, 3, 4, 5, 6, 70];
 // let arr2 = arr.findIndex((val) => {
 //     return val > 50;
@@ -372,7 +372,7 @@
 // console.log(arr2);
 
 
-// Use some to check if any number is negative.
+// --->  Use some to check if any number is negative.
 //  let arr = [2, 3, -4, 5, -6, 70];
 //  let arr2 = arr.some((val)=>{
 //     if(val<0){
@@ -382,7 +382,7 @@
 //  console.log(arr2);
 
 
-// Use every to check if all numbers are positive. 
+// --->  Use every to check if all numbers are positive. 
 //  let arr = [2, 3, 4, 5, 6, 70];
 //  let arr2 = arr.every((val)=>{
 //     if(val>0){
@@ -392,7 +392,7 @@
 //  console.log(arr2);
 
 
-// Create array of names and convert all to uppercase.
+// --->  Create array of names and convert all to uppercase.
 // let names = ["Kunal", "Aman", "Golu", "Samay"];
 // let allNames = names.map((val)=>{
 //     return val.toUpperCase();
@@ -400,7 +400,7 @@
 // console.log(allNames);
 
 
-// Filter all students with marks > 80. 
+// --->  Filter all students with marks > 80. 
 // let students = [
 //     { name: "Kunal", marks: 90 },
 //     { name: "Aman", marks: 75 },
@@ -416,7 +416,7 @@
 // console.log(studentsMarks);
 
 
-// Calculate average using reduce. 
+// --->  Calculate average using reduce. 
 // let arr = [10, 20, 30, 40, 50];
 // let arr2 = arr.reduce((acc, val)=>{
 //     return acc + val;
@@ -425,7 +425,7 @@
 // console.log(ans);
 
 
-// Count occurrences of numbers in array. 
+// --->  Count occurrences of numbers in array. 
 // let arr = [2, 3, 2, 4, 3, 2, 5, 4];
 // let arr2 = arr.reduce((acc, val)=>{
 //     if(acc[val]){
@@ -438,17 +438,17 @@
 // console.log(arr2);
 
 
-// Flatten nested arrays using flat .
+// --->  Flatten nested arrays using flat .
 // let arr = [10, [20, 30], [40, 50]];
 // console.log(arr.flat());
 
 
-// Remove duplicates using Set. 
+// --->  Remove duplicates using Set. 
 // let arr = [1, 2, 2, 3, 3, 4, 4];
 // console.log([...new Set(arr)])
 
 
-// Sort array of objects by age. 
+// --->  Sort array of objects by age. 
 // let people = [
 //     { name: "Kunal", age: 25 },
 //     { name: "Aman", age: 18 },
@@ -459,7 +459,7 @@
 // console.log(ans);
 
 
-// Find total price of shopping cart. 
+// --->  Find total price of shopping cart. 
 // let cart = [
 //     { item: "Shoes", price: 2000 },
 //     { item: "T-shirt", price: 500 },
@@ -472,7 +472,7 @@
 // console.log(ans);
 
 
-// Group users by age.
+// --->  Group users by age.
 // let users = [
 //     { name: "Kunal", age: 20 },
 //     { name: "Aman", age: 25 },
@@ -490,7 +490,7 @@
 // console.log(ans);
     
 
-// Chain filter and map. 
+// --->  Chain filter and map. 
 // let numbers = [2, 5, 8, 11, 14, 17, 20];
 // let ans = numbers.filter((val)=>{
 //     if(val%2===0){
@@ -503,7 +503,7 @@
 // console.log(ans);
 
 
-// Explain difference between map and forEach.
+// --->  Explain difference between map and forEach.
 // let numbers = [1, 2, 3, 4];
 
 //map:
@@ -531,7 +531,7 @@
 // }
 
 
-// Access properties using dot notation. 
+// --->  Access properties using dot notation. 
 // let student = {
 //     name: "Kunal",
 //     age: 20,
@@ -540,7 +540,7 @@
 // console.log(student.name);
 
 
-// Access properties using bracket notation. 
+// --->  Access properties using bracket notation. 
 // let student = {
 //     name: "Kunal",
 //     age: 20,
@@ -549,7 +549,7 @@
 // console.log(student["name"]);
 
 
-// Add new property dynamically. 
+// --->  Add new property dynamically. 
 // let student = {
 //     name: "Kunal",
 //     age: 20,
@@ -559,7 +559,7 @@
 // console.log(student);
 
 
-// Update existing property. 
+// --->  Update existing property. 
 // let student = {
 //     name: "Kunal",
 //     age: 20,
@@ -569,7 +569,7 @@
 // console.log(student);
 
 
-// Delete a property. 
+// --->  Delete a property. 
 // let student = {
 //     name: "Kunal",
 //     age: 20,
@@ -579,7 +579,7 @@
 // console.log(student);
 
 
-// Create object method.
+// --->  Create object method.
 // let student = {
 //     name: "Kunal",
 //     age: 20,
